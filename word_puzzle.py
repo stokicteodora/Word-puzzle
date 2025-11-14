@@ -74,7 +74,7 @@ while attempts > 0:
         if feedback[i] == "⚫":
             if guess[i] in copy:
                 feedback[i] = "🟡"
-                copy[copy.index(guess[i])] = " "
+                copy[copy.index(guess[i])] = " " # Ai helped me with line 77
 
     print("".join(feedback))
 
